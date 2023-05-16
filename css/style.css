@@ -1,8 +1,9 @@
 body {
     background-color: #F9F7F7;
+    color: #3F72AF;
 }
 hr {
-    border-top: 6px dotted  #3F72AF;
+    border-top: 6px dotted  #DBE2EF;
     width: 3%;
 }
 h1 {
