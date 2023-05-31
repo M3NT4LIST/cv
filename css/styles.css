@@ -7,7 +7,6 @@ body {
     background-color: #BBE1FA;
     text-align: center;
     padding-top: 6rem;
-    
 }
 .middle {
    background-color: #3282B8;
@@ -126,4 +125,7 @@ hr {
     -moz-border-radius: 30px;
     border-radius: 30px;
     text-decoration: none;
+}
+.potrait {
+    width: 100%;
 }
