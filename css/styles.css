@@ -24,8 +24,8 @@ body {
 }
 .bottom-cloud {
     position: absolute;
-    margin-top: 0;
     margin-right: 6rem;
+    margin-top: 0;
 }
 p {
     margin: 0;
