@@ -1,23 +1,129 @@
 body {
-    background-color: #F9F7F7;
-    color: #3F72AF;
+    margin: 0;
+    color: #1B262C;
+    text-align: center;
 }
-hr {
-    border-top: 6px dotted  #DBE2EF;
-    width: 3%;
+.top {
+    background-color: #BBE1FA;
+    text-align: center;
+    padding-top: 6rem;
+    
 }
-h1 {
-    color: #112D4E;
- }
-h3 {
-    color: #112D4E;
-  }
-  strong {
-    color: #112D4E;
+.middle {
+   background-color: #3282B8;
+   padding: 0 1%;
+}
+.bottom {
+    background-color: #0F4C75;
+    text-align: center;
+    margin: 0;
+}
+.top-cloud {
+    position: absolute;
+    margin-left: 6rem;
+    margin-top: 0;
+}
+.bottom-cloud {
+    position: absolute;
+    margin-top: 0;
+    margin-left: 2rem;
 }
 p {
-    color: #3F72AF;
+    margin: 0;
 }
-table {
-    border-spacing: 20px;
+h3 {
+    margin: 5px 0;
+}
+.h2- {
+    margin-bottom: 0;
+    font-size: 2.5rem;
+}
+h1 {
+    font-size: 5rem;
+    margin-bottom: 1%;
+}
+.cursiv {
+    font-family: 'Great Vibes', cursive;
+}
+.h2-v {
+    font-weight: 100;
+}
+.skills {
+    text-align: center;
+}
+.skill-row {
+    width: 50%;
+    margin: 1rem auto;
+    text-align: left;
+    line-height: 2;
+}
+.center {
+    margin: auto;
+    text-align: center;
+}
+.img-left {
+    width: 12.5%;
+    border-radius: 30%;
+    float: left;
+    margin-right: 2%;
+    margin-bottom: 2%;
+}
+.img-right {
+    width: 12.5%;
+    border-radius: 30%;
+    float: right;
+    margin-left: 2%;
+    margin-bottom: 2%;
+}
+hr {
+    clear: both;
+    width: 50%;
+    height: 50%;
+    border: solid #0F4C75;
+    margin: 1% auto;
+    border-bottom: none;
+    border-left: none;
+    border-right: none;
+}
+.unwrapping-left {
+    clear: left;
+}
+.mail-button {
+    background: #BBE1FA;
+    background-image: -webkit-linear-gradient(top, #BBE1FA, #0F4C75);
+    background-image: -moz-linear-gradient(top, #BBE1FA, #0F4C75);
+    background-image: -ms-linear-gradient(top, #BBE1FA, #0F4C75);
+    background-image: -o-linear-gradient(top, #BBE1FA, #0F4C75);
+    background-image: -webkit-gradient(to bottom, #BBE1FA, #0F4C75);
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 30px;
+    color: #1B262C;
+    font-family: Brush Script MT;
+    font-size: 20px;
+    font-weight: 100;
+    padding: 20px;
+    -webkit-box-shadow: 1px 1px 10px 0 #000000;
+    -moz-box-shadow: 1px 1px 10px 0 #000000;
+    box-shadow: 1px 1px 10px 0 #000000;
+    text-shadow: 1px 1px 10px #3282B8;
+    border: solid #0F4C75 1px;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+    text-align: center;
+    margin: 1%;
+}
+ .mail-button:hover {
+    border: solid #000000 1px;
+    background: #3282B8;
+    background-image: -webkit-linear-gradient(top, #3282B8, #BBE1FA);
+    background-image: -moz-linear-gradient(top, #3282B8, #BBE1FA);
+    background-image: -ms-linear-gradient(top, #3282B8, #BBE1FA);
+    background-image: -o-linear-gradient(top, #3282B8, #BBE1FA);
+    background-image: -webkit-gradient(to bottom, #3282B8, #BBE1FA);
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    border-radius: 30px;
+    text-decoration: none;
 }
